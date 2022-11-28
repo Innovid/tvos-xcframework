@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "InnovidAdRenderer",
-    platforms: [
-        .tvOS(.v12)
-    ],
-    products: [
-        .library(
-            name: "InnovidAdRenderer",
-            targets: ["InnovidAdRenderer"]),
-    ],
-    targets: [
-        .binaryTarget(
-            name: "InnovidAdRenderer",
-            url: "https://s3.amazonaws.com/innovid-video/common/tvos/releases/InnovidAdRenderer.xcframework-1.6.3-xcode12.0.0.zip",
-            checksum: "3e63bbda4c49dd96902406dc9146efb6676d2cec3d1e7e1ef4cf2eb78f34a6e9"
-        )
-    ]
-
+	name: "InnovidAdRenderer",
+	platforms: [
+		.tvOS(.v12),
+	],
+	products: [
+		.library(
+			name: "InnovidAdRenderer",
+			targets: ["InnovidAdRenderer"]
+		),
+	],
+	targets: [
+		.binaryTarget(
+			name: "InnovidAdRenderer",
+			url: "https://s3.amazonaws.com/innovid-video/common/tvos/releases/InnovidAdRenderer.xcframework-1.6.5-xcode12.5.1.zip",
+			checksum: "8a618af5e889e654eb01c27fd742fcf7e4a584f96e40f1e878df83b50ec28a18"
+		),
+	]
 )
