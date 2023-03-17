@@ -1,24 +1,23 @@
-// swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
-	name: "InnovidAdRenderer",
+	name: "InnovidAdRendererFramework",
 	platforms: [
-		.tvOS(.v12),
+		.tvOS(.v13),
 	],
 	products: [
 		.library(
-			name: "InnovidAdRenderer",
-			targets: ["InnovidAdRenderer"]
+			name: "InnovidAdRendererFramework",
+			targets: ["InnovidAdRendererFramework"]
 		),
 	],
 	targets: [
 		.binaryTarget(
-			name: "InnovidAdRenderer",
-			url: "https://s3.amazonaws.com/innovid-video/common/tvos/releases/InnovidAdRenderer.xcframework-1.6.7-xcode12.5.1.zip",
-			checksum: "2e8b98baa3d816d77778fa42a09b67c5afa94982898d05417e4bf45df1b9af0c"
+			name: "InnovidAdRendererFramework",
+			url: "https://github.com/Innovid/tvos-xcframework/releases/download/1.7.0-alpha.0/InnovidAdRendererFramework.xcframework.zip",
+			checksum: "fb99018e3524ffed1e94cd1523d3bc7f8856995a97d957807f87cef04924e788"
 		),
 	]
 )
