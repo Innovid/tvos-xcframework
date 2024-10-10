@@ -16,8 +16,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "InnovidAdRendererFramework",
-			url: "https://github.com/Innovid/tvos-xcframework/releases/download/1.0.1-beta/InnovidAdRendererFramework.xcframework.zip",
-			checksum: "1ca48af10a5e2df00dcd25e4c765429422f633ffae6a2a70ee7b9c2262bd4963"
+			url: "https://github.com/Innovid/tvos-xcframework/releases/download/1.0.25/InnovidAdRendererFramework.xcframework.zip",
+			checksum: "573f47ceaa89ec5d26660a0ae4c4f14ce0ee83d1bdf1c8d7c75aab5715d3953b"
 		),
 	]
 )
